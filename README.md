@@ -1,3 +1,3 @@
 # Dance Website
 
-A dance academy website using Pure Pug + NodeJs
+A dance academy website using Pure Pug, NodeJs and ExpressJs

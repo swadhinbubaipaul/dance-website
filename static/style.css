@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0 40px 0 14px;
+  font-size: 18px;
+}
+
+#logo img {
+  height: 42px;
+  filter: invert(1);
+}
+
+#navbar {
+  background-color: #ff4c4c;
+  padding: 18px 4px;
+  font-family: "Roboto Mono";
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+}
+#navbar li {
+  list-style: none;
+}
+
+#navbar li a {
+  text-decoration: none;
+  padding: 13px 30px;
+  color: white;
+}
+#navbar li a:hover {
+  color: rgb(34, 33, 33);
+}
+
+#introSection {
+  color: #dcffe7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 425px;
+  background: url("/static/bg.jpeg") center/cover no-repeat;
+  font-family: "Kalam";
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 40px;
+}
+
+#introSection .small {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#missionSection {
+  height: 326px;
+}
+
+#missionSection h2 {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 12px;
+  font-family: "Roboto Mono";
+}
+
+#cardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 19%;
+  margin: 23px 22px;
+  height: 210px;
+  background-color: #fffbf6;
+}
+
+.card h3 {
+  text-align: center;
+  margin: 24px 12px 0px 12px;
+  font-family: Arial;
+}
+
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-img {
+  height: 131px;
+  padding: 0 14px;
+  margin: 5px 9px;
+}
+
+.card-img img {
+  height: inherit;
+}
+
+.card-content {
+  padding: 0 10px;
+}
+
+.card-content p {
+  font-size: 19px;
+}
+
+#sponsorSection {
+  height: 300px;
+  background-color: #f5e0e0;
+}
+#sponsorSection h2 {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 32px;
+  font-family: "Roboto Mono";
+}
+
+#sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 80px;
+  padding-top: 35px;
+}
+
+.spImage {
+  height: 132px;
+}
+
+#footer {
+  height: 38px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Roboto+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 87vh;
+}
+
+.container h1 {
+  font-family: "Roboto Mono";
+  margin-bottom: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin: 12px 0px;
+}
+
+.formCls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.inputCls {
+  width: 40%;
+  padding: 9px;
+  margin: 5px;
+  font-size: 16px;
+  border: 2px solid #8d8a8a;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn {
+  padding: 6px 26px;
+  border: 2px solid black;
+  color: white;
+  border-radius: 8px;
+  background-color: #ff4c4c;
+  margin: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  opacity: 0.75;
+}

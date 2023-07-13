@@ -115,6 +115,17 @@
 
 .card-content p {
   font-size: 19px;
+  min-width: 20px;
+}
+@media only screen and (max-width: 1410px) {
+  .card-box {
+    flex-direction: column;
+  }
+  .card-img {
+    height: 80px;
+    padding: 0 12px;
+    margin: 5px 9px;
+  }
 }
 
 #sponsorSection {
